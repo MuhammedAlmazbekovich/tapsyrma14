@@ -10,24 +10,11 @@ public class Class {
         this.number = number;
         this.word = word;
         this.arrNumber = arrNumber;
-    }
-
-    public void setNumber(int number){
-        this.number = number;
-    }
-    public int getNumber(){
-        return number;
-    }
-    public  void setWord(String word){
-        this.word = word;
-    }
-    public String getWord(){
-        return word;
-    }
-    public void setArrNumber(int[] arrNumber){
-        this.arrNumber = arrNumber;
-    }
-    public int[] getArrNumber(int i){
-        return arrNumber;
+        
+        
+         System.out.print(number + "  " + word + " ");
+       for (int arg: arrNumber) {
+       System.out.print(arg + " ");
+       }   
     }
 }
