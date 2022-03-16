@@ -10,8 +10,7 @@ public class Class {
         this.number = number;
         this.word = word;
         this.arrNumber = arrNumber;
-        
-        
+     
          System.out.print(number + "  " + word + " ");
        for (int arg: arrNumber) {
        System.out.print(arg + " ");
